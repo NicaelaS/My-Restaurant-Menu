@@ -1,0 +1,83 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 5px ridge #eb6424;
+  padding-bottom: 25px;
+}
+
+.menu-container {
+  display: grid;
+  gap: 40px;
+}
+
+
+.items-container {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+.price {
+  font-weight: bold;
+  color: #eb6424;
+  font-size: 1.1em;
+}
+
+.description {
+  margin: 0;
+  color: #7c6a0a;
+  font-style: italic;
+}
+
+.cart-summary {
+  background: #fff7f0;
+  border: 2px solid #eb6424;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 24px 0;
+}
+
+.cart-summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f2c8aa;
+}
+
+.cart-empty {
+  color: #7c6a0a;
+}
+
+.cart-total {
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.menu-item-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}

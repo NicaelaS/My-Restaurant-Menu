@@ -1,0 +1,11 @@
+.menu-category {
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.menu-category h2 {
+  background: #ffdac6;
+  color: #7c6a0a;
+  border-bottom: 2px dotted #fa9500;
+  padding-bottom: 20px;
+}
